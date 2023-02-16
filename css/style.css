@@ -1,0 +1,243 @@
+/* acomodacion y color pagina */
+*{ margin: 0%;
+    padding: 0% ;}
+
+/* INDEX */
+
+
+
+.main-index {display: grid; 
+    border: 5px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(211,206,206)
+}
+.txt{ color: rgb(0, 0, 0); margin: auto;}
+
+.body{ background-color: rgb(214, 181, 181);
+    justify-content: center; }
+   
+#body-camino-final{ background-color:rgb(204, 198, 228);position: relative;
+padding-bottom: 2em;}
+/* h1 */
+
+h1{ font-size: 30px;
+text-align: center; background-color: black;
+color:white}
+
+/* h2 */
+h2{ margin-left: 15px;}
+
+/* nav */
+#lista{text-align: center; 
+font-size:22px;}
+li{ color: gray;}
+.copa-argentina{ height: 400px;}
+
+/* imagenes tw y ig */
+.twitter{ width: 40px;
+height: 40px; }
+.instagram{ width: 40px;
+    height: 40px;}
+
+    /* footer pie de pagina */
+.footer{ padding: 1em 0;
+position: absolute;
+bottom: 0;
+width: 100%; text-align: right;}
+
+
+.div-index{display: flex;
+margin: 15px; 
+border-top:solid;
+color: black; }
+
+.copa-argentina{ margin-left: 20px;}
+
+p{ font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+font-size: 22px; }
+
+
+/* EQUIPO */
+
+/* header */
+.header-equipo{ font-size: 25px; display: flex; flex-direction: row;
+justify-content: space-around;}
+.h2-equipo{text-align: center; }
+
+/* div-main */
+#div-equipo { display: flex;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+font-size: 20px;
+margin: 15px;
+border-top:solid;
+color: black;}
+.lista-jugadores{width: 440px;
+height: 540px;}
+
+/* CAMINO A LA FINAL */
+
+#inicio{font-size:25px ; 
+    margin-left: 15px; }
+
+/* fotos camino a la final */
+
+#arg-vs-austr{ width: 450px;
+    height: 280px;}
+
+#arg-vs-hol{ width: 450px;
+    height: 280px;}
+
+#arg-vs-croacia { width: 450px;
+    height: 280px;}
+
+/* videos camino a la final */
+#video-octavo { width: 450px;
+    height: 280px;}
+
+#video-cuartos { width: 450px;
+    height: 280px;}
+
+#video-semi{ width: 450px;
+    height: 280px;}
+
+
+/* font */
+#octavos{ font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+font-size: 15px; 
+text-align: left; 
+margin: 10px 20px 10px 20px; }
+
+.h2-octavos{ text-align: center;
+    background-color: black;
+     color: whitesmoke; }
+
+#txt-cuartos{font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif; 
+font-size:larger; 
+text-align: left; 
+margin: 10px 20px 10px 20px;}
+
+.h2-cuartos{text-align: center; 
+     background-color: black; 
+     color: whitesmoke; }
+
+#semifinal{font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif; font-size:15px;
+     text-align: left; 
+     margin: 10px 20px 10px 20px}
+
+.h2-semis{text-align: center
+    ;background-color: black;
+     color: whitesmoke;}
+
+/* FINAL */
+a { margin: 10px 20px 10px 20px; 
+    font-size: 25px;}
+.div-final{ display: flex;
+float: left; 
+margin:20px ;
+font-size: 20px;
+}
+.h2-final{text-align: center
+    ;background-color: black;
+     color: whitesmoke; }
+.foto-final{width: 450px;
+    height: 280px;
+     margin-left: 20px; }
+
+.video-final{width: 450px;
+    height: 280px }
+
+/* MOMENTOS DESTACADOS */
+
+
+/* ATAJADA DIBU-KOLO MUANI */
+
+
+.dibu-francia{margin: 20px 20px 10px 20px; text-align: center; }
+
+.h3-dibu-francia{background-color: black;
+    color: aliceblue; }
+
+.video-atajada-francia{width: 530px;
+    height: 230px; margin-top: 5px; }
+/* GOL ENZO FERNANDEZ-MEXICO */
+
+.gol-enzo-mex {margin: 20px 20px 10px 20px;text-align: center; }
+
+.h3-enzo-mexico{background-color: black;
+     color: aliceblue;}
+
+.video-enzo-gol-mexico{ width: 530px;
+    height: 230px; 
+    margin-top: 5px; }
+
+    /* ATAJADA DIBU MARTINEZ AUSTRALIA */
+
+.atajada-dibu-aust{ margin: 20px 20px 10px 20px ;
+ text-align: center;}
+
+.h3-dibu-australia{background-color: black;color: aliceblue; }
+.video-atajada-dibu-australia{ width: 530px;
+    height: 230px; 
+    margin-top: 5px;}
+
+    /* GOL DE DI MARIA CONTRA FRANCIA */
+
+.gol-dimaria-francia{ margin: 20px 20px 10px 20px; text-align: center;}
+
+.h3-dimaria-francia{background-color: black;
+color: aliceblue; }
+
+.video-gol-dimaria-francia{width: 530px;
+height: 230px; 
+margin-top: 5px; }
+
+/*GOL JULIAN ALVAREZ CONTRA CROACIA*/
+
+.gol-julian-corrida-croacia{margin: 20px 20px 10px 20px; text-align: center; }
+
+.h3-gol-julian-croacia{background-color: black; color: aliceblue; }
+
+.video-gol-julian-croacia{width: 530px;
+height: 230px; margin-top: 5px; }
+
+
+/* ANIMACIONES */
+
+a:hover{
+    background: palevioletred;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;}
+
+li:hover{
+    background: palevioletred;
+    border-radius: 5px;
+    padding: 3px;}
+
+
+
+/* MEDIAQUERIES */
+
+@media screen and (min-width:768px ) {
+
+.txt-index{font-size: 40px; }
+
+.txt{font-size: 25px; }
+
+a:active{
+    background: palevioletred;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;}
+    
+    .header-index{text-align: right; font-size: 20px; color: darksalmon; ;}
+
+.header-equipo{font-size: 40px;text-align: center; }
+
+.lista-jugadores{ width: 440px ; height: 340; margin-right: 5px;} }
